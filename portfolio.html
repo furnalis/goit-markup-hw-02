@@ -4,31 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <title>Portfolio</title>
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">Web<span>Studio</span></a>
+        <a class="header-style" href="index.html"><span class="blue-logo">Web</span>Studio</a>
         <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Portflio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li>
+            <a href="index.html"" class="black-header">Agencja</a>
+          </li>
+          <li>
+            <a href="portfolio.html" class="blue-header">Portfolio</a>
+          </li>
+          <li>
+            <a href="#" class="black-header">Kontakt</a>
+          </li>
         </ul>
       </nav>
       <ul>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a href="mailto:info@devstudio.com" class="blue-header">info@devstudio.com</a>
+        <a href="tel:+48111111111" class="black-header">+48 111 111 111</a>
       </ul>
     </header>
     <main>
       <section>
-        <button type="button">Wszystkie</button>
-        <button type="button">Strony</button>
-        <button type="button">Aplikacje</button>
-        <button type="button">Design</button>
-        <button type="button">Marketing</button>
+        <ul>
+          <li><button class="second-button" type="button">Wszystkie</button></li>
+          <li><button class="third-button" type="button">Strony</button></li>
+          <li><button class="third-button" type="button">Aplikacje</button></li>
+          <li><button class="third-button" type="button">Design</button></li>
+          <li><button class="third-button" type="button">Marketing</button></li>
+        </ul>
       </section>
 
       <div>
@@ -37,8 +51,8 @@
             <figure>
               <img alt="laptop" width="370" height="294" src="images/img8.jpg" />
               <figcaption>
-                <h4>Technocrack</h4>
-                <p>Strona internetowa</p>
+                <h4 class="name">Technocrack</h4>
+                <p class="position">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -47,8 +61,8 @@
             <figure>
               <img alt="koszykarze" width="370" height="294" src="images/img9.jpg" />
               <figcaption>
-                <h4>Grafika New Orlean vs Golden Star</h4>
-                <p>Dizajn</p>
+                <h4 class="name">Grafika New Orlean vs Golden Star</h4>
+                <p class="position">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -57,8 +71,8 @@
             <figure>
               <img alt="logo restauracji" width="370" height="294" src="images/img10.jpg" />
               <figcaption>
-                <h4>Restauracja Seafood</h4>
-                <p>Aplikacja</p>
+                <h4 class="name">Restauracja Seafood</h4>
+                <p class="position">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -71,8 +85,8 @@
             <figure>
               <img alt="słuchawki" width="370" height="294" src="images/img11.jpg" />
               <figcaption>
-                <h4>Projekt Prime</h4>
-                <p>Marketing</p>
+                <h4 class="name">Projekt Prime</h4>
+                <p class="position">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -81,8 +95,8 @@
             <figure>
               <img alt="pudełka" width="370" height="294" src="images/img12.jpg" />
               <figcaption>
-                <h4>Projekt Boxes</h4>
-                <p>Aplikacja</p>
+                <h4 class="name">Projekt Boxes</h4>
+                <p class="position">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -91,8 +105,8 @@
             <figure>
               <img alt="monitor" width="370" height="294" src="images/img13.jpg" />
               <figcaption>
-                <h4>Inspiration has no Borders</h4>
-                <p>Strona internetowa</p>
+                <h4 class="name">Inspiration has no Borders</h4>
+                <p class="position">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -105,8 +119,8 @@
             <figure>
               <img alt="magazyn" width="370" height="294" src="images/img14.jpg" />
               <figcaption>
-                <h4>Magazyn Limited Edition</h4>
-                <p>Dizajn</p>
+                <h4 class="name">Magazyn Limited Edition</h4>
+                <p class="position">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -115,8 +129,8 @@
             <figure>
               <img alt="etykieta" width="370" height="294" src="images/img15.jpg" />
               <figcaption>
-                <h4>Projekt LAB</h4>
-                <p>Marketing</p>
+                <h4 class="name">Projekt LAB</h4>
+                <p class="position">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -125,8 +139,8 @@
             <figure>
               <img alt="laptop" width="370" height="294" src="images/img16.jpg" />
               <figcaption>
-                <h4>Growing Business</h4>
-                <p>Aplikacja</p>
+                <h4 class="name">Growing Business</h4>
+                <p class="position">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -134,12 +148,12 @@
       </div>
     </main>
     <footer>
-      <a href="#">Web<span>Studio</span></a>
+      <a class="footer-style" href="index.html"><span class="blue-logo">Web</span>Studio</a>
       <address>
         <ul>
-          <li><p>m. Warszawa, Aleje Jerozolimskie 21</p></li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li><p class="footer-adress">m. Warszawa, Aleje Jerozolimskie 21</p></li>
+          <li><a class="footer-adress" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="footer-adress" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
       </address>
     </footer>
