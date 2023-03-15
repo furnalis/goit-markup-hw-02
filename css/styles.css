@@ -11,7 +11,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 4.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -22,7 +22,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -32,16 +32,27 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
+.customers {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 3.6;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
 .blue-logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 3.1;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -51,7 +62,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 3.1;
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
@@ -62,7 +73,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 3.1;
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
@@ -73,7 +84,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 2.4;
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
@@ -84,7 +95,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.6;
   letter-spacing: 0.02em;
   color: #2196f3;
   text-decoration: none;
@@ -95,7 +106,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.6;
   letter-spacing: 0.02em;
   color: #000000;
   text-decoration: none;
@@ -106,15 +117,13 @@ ul {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  text-align: center;
+  line-height: 6;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #000000;
 }
 
 .first-button {
-  position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
@@ -127,7 +136,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 3;
   display: flex;
   align-items: center;
   text-align: center;
@@ -139,7 +148,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.6;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -150,7 +159,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 2.4;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -168,7 +177,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 2.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -185,7 +194,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 2.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
