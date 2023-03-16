@@ -32,13 +32,15 @@ button {
 .address {
   color: var(--color-grey);
 }
-.address:hover {
+.address:hover,
+.address:focus {
   color: var(--second-color);
 }
 .black-header {
   color: var(--secon-black);
 }
-.black-header:hover {
+.black-header:hover,
+.black-header:focus {
   color: var(--second-color);
 }
 .first-header {
