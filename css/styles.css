@@ -1,6 +1,6 @@
 :root {
   --text-color: #000000;
-  --white: #ffffff;
+  --first-color: #ffffff;
   --second-color: #2196f3;
   --secon-black: #212121;
   --color-grey: #757575;
@@ -60,7 +60,7 @@ button {
   color: var(--text-color);
 }
 .footer-style {
-  color: var(--white);
+  color: var(--first-color);
 }
 
 .blue-logo {
@@ -72,7 +72,7 @@ button {
   line-height: 6;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--first-color);
 }
 .lorem-ipsum {
   font-weight: 700;
@@ -108,7 +108,7 @@ button {
   background: var(--second-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: var(--white);
+  color: var(--first-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 3;
@@ -126,13 +126,13 @@ button {
 .second-button:hover,
 .second-button:focus {
   background: var(--second-color);
-  color: var(--white);
+  color: var(--first-color);
 }
 .footer-adress {
   font-style: normal;
   font-size: 14px;
   line-height: 2.4;
-  color: var(--white);
+  color: var(--first-color);
   text-decoration: none;
 }
 .footer-adress:hover,
