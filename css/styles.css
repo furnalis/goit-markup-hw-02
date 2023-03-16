@@ -1,20 +1,45 @@
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.backgroud {
-  background-color: #2f303a;
-}
-
 :root {
   --text-color: #000000;
   --white: #ffffff;
-  --blue: #2196f3;
+  --second-color: #2196f3;
   --secon-black: #212121;
+  --color-grey: #757575;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+}
+.backgroud {
+  background-color: #2f303a;
+}
+.address,
+.black-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+.address {
+  color: var(--color-grey);
+}
+.address:hover {
+  color: var(--second-color);
+}
+.black-header {
+  color: var(--secon-black);
+}
+.black-header:hover {
+  color: var(--second-color);
 }
 
 .first-header {
@@ -22,53 +47,26 @@ ul {
   font-size: 36px;
   line-height: 4.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secon-black);
+  list-style-type: none;
 }
 
-.black-header:hover {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
-  color: var(--blue);
-}
-
-.header-style {
+.header-style,
+.footer-style {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 3.1;
-  letter-spacing: 0.03em;
-  text-decoration: none;
+}
+.header-style {
   color: var(--text-color);
+}
+.footer-style {
+  color: var(--white);
 }
 
 .blue-logo {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 3.1;
-  letter-spacing: 0.03em;
-  color: var(--blue);
-}
-
-.blue-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
-  color: var(--blue);
-  text-decoration: none;
-}
-
-.black-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-  text-decoration: none;
+  color: var(--second-color);
 }
 
 .big-text {
@@ -84,7 +82,6 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secon-black);
 }
@@ -92,23 +89,18 @@ ul {
 .lorem-text {
   font-size: 14px;
   line-height: 2.4;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-grey);
 }
 
-.name {
-  font-weight: 500;
+.name .position {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
+}
+.name {
   color: var(--secon-black);
 }
-
 .position {
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-grey);
 }
 
 .customers {
@@ -120,33 +112,14 @@ ul {
 }
 
 .first-button {
-  background: #2196f3;
+  background: var(--second-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--white);
   font-weight: 700;
   font-size: 16px;
   line-height: 3;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  cursor: pointer;
-}
-
-.first-button:hover {
-  background: #f5f4fa;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  color: var(--text-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 3;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
 }
 
 .second-button {
@@ -156,46 +129,21 @@ ul {
   font-size: 16px;
   line-height: 2.6;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secon-black);
-  cursor: pointer;
 }
-
 .second-button:hover {
-  background: #2196f3;
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 2.6;
-  text-align: center;
-  letter-spacing: 0.03em;
+  background: var(--second-color);
   color: var(--white);
-  cursor: pointer;
-}
-
-.footer-style {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 3.1;
-  letter-spacing: 0.03em;
-  color: var(--white);
-  text-decoration: none;
 }
 
 .footer-adress {
   font-style: normal;
   font-size: 14px;
   line-height: 2.4;
-  letter-spacing: 0.03em;
   color: var(--white);
   text-decoration: none;
 }
 
 .footer-adress:hover {
-  font-size: 14px;
-  line-height: 2.4;
-  letter-spacing: 0.03em;
-  color: var(--blue);
-  text-decoration: none;
+  color: var(--second-color);
 }
