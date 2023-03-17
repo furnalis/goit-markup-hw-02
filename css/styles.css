@@ -90,7 +90,6 @@ button {
 }
 .name,
 .position {
-  font-size: 16px;
   line-height: 1.9;
 }
 .name {
@@ -112,7 +111,6 @@ button {
   border-radius: 4px;
   color: var(--first-color);
   font-weight: 700;
-  font-size: 16px;
   line-height: 3;
   letter-spacing: 0.06em;
 }
@@ -120,7 +118,6 @@ button {
   background: #f5f4fa;
   border-radius: 4px;
   font-weight: 500;
-  font-size: 16px;
   line-height: 2.6;
   text-align: center;
   color: var(--secon-black);
@@ -135,7 +132,6 @@ button {
   font-size: 14px;
   line-height: 2.4;
   color: var(--first-color);
-  text-decoration: none;
 }
 .footer-adress:hover,
 .footer-adress:focus {
